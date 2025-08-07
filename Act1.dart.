@@ -1,0 +1,22 @@
+Activity 1:
+
+void main() {
+  String greet = 'Welcome';
+  String user ='Alice';
+  print('$greet $user');
+    }
+
+void main() {
+  String greet = 'Welcome';
+  dynamic user = 'Alice';
+  print('$greet $user');
+  
+ user = 25;
+ print('$greet $user');
+}
+
+
+
+Dynamic variables is allowed to hold different data types like string, int, without causing a compilation error.
+
+
